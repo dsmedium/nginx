@@ -1,0 +1,802 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar-brand img{
+    height: 60px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff!important;
+}
+
+.navbar{
+    background: #fff;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*---------slider---------*/
+#slider{
+width: 100%;
+}
+
+#slider1{
+    margin-top: 2px;
+    width: 100%;
+}
+
+
+
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-size: 16px;*/
+}
+
+
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+#particles-js h1{
+    font-size: 70px;
+}
+
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: #ccc 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 4em;
+}
+
+.btn:hover{
+    color: #b19295;
+    border: #fff 1px solid;
+}
+
+#particles-js{
+    background-image: url('image1.jpg');
+    height: 70vh;
+    font-size: 16px;
+}
+
+.carousel-caption{
+    top : 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5{
+    color: #fff;
+    font-size: 42px;
+}
+
+/*--------About US -----*/
+ #about{
+     padding-top: 50px;
+     padding-bottom: 50px;
+     color: #555;
+ }
+ .about-content{
+     padding-bottom: 20px;
+     padding-top: 20px;
+ }
+
+.testing{
+    background-color: #ff4814;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.container1 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -64.5px;
+    margin-top: -85.5px;
+}
+
+.ghost {
+    animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+    50% {
+        transform: translate(0, 20px);
+    }
+}
+.shadowFrame {
+    width: 130px;
+    margin-top: 15px;
+}
+.shadow {
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+ellipse {
+    transform-origin: center center;
+}
+}
+
+@keyframes shrink {
+    0% {
+        width: 90%;
+        margin: 0 5%;
+    }
+    50% {
+        width: 60%;
+        margin: 0 18%;
+    }
+    100% {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+/*-----------services---------*/
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/services.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services{
+    margin-top : 40px;
+
+}
+.icon{
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    /*line-height: inherit;*/
+}
+
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+/*------------Contact Us-----------*/
+#contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.contact-form{
+    padding: 15px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border : none !important;
+}
+::placeholder{
+    color: #999 !important;
+}
+
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/*------------Footer----------*/
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+.fa-wpforms{
+    margin: 3px;
+}
+
+
+/* .carousel-item img {
+  width: auto;
+  height: 1000px;
+} */
+
+
+#aboutustest{
+    background: rgb(20,20,20);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+::selection {
+    background: #19f6e8;
+}
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 500px;
+}
+.shape1,
+.shape2 {
+    stroke-dasharray: 1120;
+    stroke-width: 5px;
+    fill: transparent;
+    stroke: #19f6e8;
+    border-bottom: 5px solid black;
+    transition-timing-function: linear;
+    transition: stroke-dashoffset 4s, stroke-dasharray 4s;
+}
+.shape1 {
+    stroke-dashoffset: 1120;
+}
+.shape2 {
+    stroke-dashoffset: -1120;
+}
+.text {
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: #fff;
+    top: -48px;
+    position: relative;
+}
+.svg-wrapper:hover .shape1,
+.svg-wrapper:hover .shape2 {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1120;
+}
+
+
+
+.wrapper {
+    padding: 6em 0 4em 0;
+    position: relative;
+}
+
+.wrapper .inner {
+    margin: 0 auto;
+    width: 80em;
+    position: relative;
+    z-index: 99;
+}
+
+.wrapper header {
+    margin-bottom: 4em;
+}
+
+@media screen and (max-width: 736px) {
+
+    .wrapper header {
+        margin-bottom: 2em;
+    }
+
+}
+
+.wrapper.style1 {
+    background-color: #fafafa;
+    color: #999999;
+}
+
+.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
+    color: #000;
+}
+
+.wrapper.style1 a {
+    color: #000;
+}
+
+.wrapper.style1 a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style1 strong, .wrapper.style1 b {
+    color: #000;
+}
+
+.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
+    color: #000;
+    text-align: center;
+    padding-bottom: 10vh;
+    font-size: 30px;
+}
+
+.wrapper.style1 p{
+    text-align: center;
+}
+
+.wrapper.style1 blockquote {
+    border-left-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 code {
+    background: rgba(0, 0, 0, 0.075);
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 hr {
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 .box {
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 input[type="submit"],
+.wrapper.style1 input[type="reset"],
+.wrapper.style1 input[type="button"],
+.wrapper.style1 button,
+.wrapper.style1 .button {
+    background-color: #3498db;
+    color: #fff !important;
+}
+
+.wrapper.style1 input[type="submit"]:hover,
+.wrapper.style1 input[type="reset"]:hover,
+.wrapper.style1 input[type="button"]:hover,
+.wrapper.style1 button:hover,
+.wrapper.style1 .button:hover {
+    background-color: #4aa3df;
+}
+
+.wrapper.style1 input[type="submit"]:active,
+.wrapper.style1 input[type="reset"]:active,
+.wrapper.style1 input[type="button"]:active,
+.wrapper.style1 button:active,
+.wrapper.style1 .button:active {
+    background-color: #258cd1;
+}
+
+.wrapper.style1 input[type="submit"].alt,
+.wrapper.style1 input[type="reset"].alt,
+.wrapper.style1 input[type="button"].alt,
+.wrapper.style1 button.alt,
+.wrapper.style1 .button.alt {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+    color: #000 !important;
+}
+
+.wrapper.style1 input[type="submit"].alt:hover,
+.wrapper.style1 input[type="reset"].alt:hover,
+.wrapper.style1 input[type="button"].alt:hover,
+.wrapper.style1 button.alt:hover,
+.wrapper.style1 .button.alt:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.style1 input[type="submit"].alt:active,
+.wrapper.style1 input[type="reset"].alt:active,
+.wrapper.style1 input[type="button"].alt:active,
+.wrapper.style1 button.alt:active,
+.wrapper.style1 .button.alt:active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper.style1 input[type="submit"].alt.icon:before,
+.wrapper.style1 input[type="reset"].alt.icon:before,
+.wrapper.style1 input[type="button"].alt.icon:before,
+.wrapper.style1 button.alt.icon:before,
+.wrapper.style1 .button.alt.icon:before {
+    color: #bfbfbf;
+}
+
+.wrapper.style1 input[type="submit"].special,
+.wrapper.style1 input[type="reset"].special,
+.wrapper.style1 input[type="button"].special,
+.wrapper.style1 button.special,
+.wrapper.style1 .button.special {
+    background-color: #000;
+    color: #fafafa !important;
+}
+
+.wrapper.style1 label {
+    color: #000;
+}
+
+.wrapper.style1 input[type="text"],
+.wrapper.style1 input[type="password"],
+.wrapper.style1 input[type="email"],
+.wrapper.style1 select,
+.wrapper.style1 textarea {
+    background: rgba(0, 0, 0, 0.075);
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 input[type="text"]:focus,
+.wrapper.style1 input[type="password"]:focus,
+.wrapper.style1 input[type="email"]:focus,
+.wrapper.style1 select:focus,
+.wrapper.style1 textarea:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 1px #000;
+}
+
+.wrapper.style1 .select-wrapper:before {
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 input[type="checkbox"] + label,
+.wrapper.style1 input[type="radio"] + label {
+    color: #999999;
+}
+
+.wrapper.style1 input[type="checkbox"] + label:before,
+.wrapper.style1 input[type="radio"] + label:before {
+    background: rgba(0, 0, 0, 0.075);
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 input[type="checkbox"]:checked + label:before,
+.wrapper.style1 input[type="radio"]:checked + label:before {
+    background-color: #000;
+    border-color: #000;
+    color: #fafafa;
+}
+
+.wrapper.style1 input[type="checkbox"]:focus + label:before,
+.wrapper.style1 input[type="radio"]:focus + label:before {
+    border-color: #000;
+    box-shadow: 0 0 0 1px #000;
+}
+
+.wrapper.style1 ::-webkit-input-placeholder {
+    color: #bfbfbf !important;
+}
+
+.wrapper.style1 :-moz-placeholder {
+    color: #bfbfbf !important;
+}
+
+.wrapper.style1 ::-moz-placeholder {
+    color: #bfbfbf !important;
+}
+
+.wrapper.style1 :-ms-input-placeholder {
+    color: #bfbfbf !important;
+}
+
+.wrapper.style1 .formerize-placeholder {
+    color: #bfbfbf !important;
+}
+
+.wrapper.style1 ul.alt li {
+    border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 header p {
+    color: #bfbfbf;
+}
+
+.wrapper.style1 table tbody tr {
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 table tbody tr:nth-child(2n + 1) {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.style1 table th {
+    color: #000;
+}
+
+.wrapper.style1 table thead {
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 table tfoot {
+    border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 table.alt tbody tr td {
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style2 {
+    background-color: #3498db;
+    color: #aed6f1;
+}
+
+.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
+    color: #fff;
+}
+
+.wrapper.style2 a {
+    color: #999999;
+}
+
+.wrapper.style2 a:hover {
+    color: rgba(153, 153, 153, 0.5);
+}
+
+.wrapper.style2 strong, .wrapper.style2 b {
+    color: #fff;
+}
+
+.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
+    color: #fff;
+}
+
+.wrapper.style2 blockquote {
+    border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 code {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 hr {
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 .box {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 input[type="submit"],
+.wrapper.style2 input[type="reset"],
+.wrapper.style2 input[type="button"],
+.wrapper.style2 button,
+.wrapper.style2 .button {
+    background-color: #fff;
+    color: #3498db !important;
+}
+
+.wrapper.style2 input[type="submit"].alt,
+.wrapper.style2 input[type="reset"].alt,
+.wrapper.style2 input[type="button"].alt,
+.wrapper.style2 button.alt,
+.wrapper.style2 .button.alt {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+    color: #fff !important;
+}
+
+.wrapper.style2 input[type="submit"].alt:hover,
+.wrapper.style2 input[type="reset"].alt:hover,
+.wrapper.style2 input[type="button"].alt:hover,
+.wrapper.style2 button.alt:hover,
+.wrapper.style2 .button.alt:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style2 input[type="submit"].alt:active,
+.wrapper.style2 input[type="reset"].alt:active,
+.wrapper.style2 input[type="button"].alt:active,
+.wrapper.style2 button.alt:active,
+.wrapper.style2 .button.alt:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.style2 input[type="submit"].alt.icon:before,
+.wrapper.style2 input[type="reset"].alt.icon:before,
+.wrapper.style2 input[type="button"].alt.icon:before,
+.wrapper.style2 button.alt.icon:before,
+.wrapper.style2 .button.alt.icon:before {
+    color: #67b2e4;
+}
+
+.wrapper.style2 input[type="submit"].special,
+.wrapper.style2 input[type="reset"].special,
+.wrapper.style2 input[type="button"].special,
+.wrapper.style2 button.special,
+.wrapper.style2 .button.special {
+    background-color: #fafafa;
+    color: #000 !important;
+}
+
+.wrapper.style2 input[type="submit"].special:hover,
+.wrapper.style2 input[type="reset"].special:hover,
+.wrapper.style2 input[type="button"].special:hover,
+.wrapper.style2 button.special:hover,
+.wrapper.style2 .button.special:hover {
+    background-color: white;
+}
+
+.wrapper.style2 input[type="submit"].special:active,
+.wrapper.style2 input[type="reset"].special:active,
+.wrapper.style2 input[type="button"].special:active,
+.wrapper.style2 button.special:active,
+.wrapper.style2 .button.special:active {
+    background-color: #ededed;
+}
+
+.wrapper.style2 label {
+    color: #fff;
+}
+
+.wrapper.style2 input[type="text"],
+.wrapper.style2 input[type="password"],
+.wrapper.style2 input[type="email"],
+.wrapper.style2 select,
+.wrapper.style2 textarea {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 input[type="text"]:focus,
+.wrapper.style2 input[type="password"]:focus,
+.wrapper.style2 input[type="email"]:focus,
+.wrapper.style2 select:focus,
+.wrapper.style2 textarea:focus {
+    border-color: #fafafa;
+    box-shadow: 0 0 0 1px #fafafa;
+}
+
+.wrapper.style2 .select-wrapper:before {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 input[type="checkbox"] + label,
+.wrapper.style2 input[type="radio"] + label {
+    color: #aed6f1;
+}
+
+.wrapper.style2 input[type="checkbox"] + label:before,
+.wrapper.style2 input[type="radio"] + label:before {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 input[type="checkbox"]:checked + label:before,
+.wrapper.style2 input[type="radio"]:checked + label:before {
+    background-color: #fafafa;
+    border-color: #fafafa;
+    color: #000;
+}
+
+.wrapper.style2 input[type="checkbox"]:focus + label:before,
+.wrapper.style2 input[type="radio"]:focus + label:before {
+    border-color: #fafafa;
+    box-shadow: 0 0 0 1px #fafafa;
+}
+
+.wrapper.style2 ::-webkit-input-placeholder {
+    color: #67b2e4 !important;
+}
+
+.wrapper.style2 :-moz-placeholder {
+    color: #67b2e4 !important;
+}
+
+.wrapper.style2 ::-moz-placeholder {
+    color: #67b2e4 !important;
+}
+
+.wrapper.style2 :-ms-input-placeholder {
+    color: #67b2e4 !important;
+}
+
+.wrapper.style2 .formerize-placeholder {
+    color: #67b2e4 !important;
+}
+
+.wrapper.style2 ul.alt li {
+    border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 header p {
+    color: #67b2e4;
+}
+
+.wrapper.style2 table tbody tr {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 table tbody tr:nth-child(2n + 1) {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style2 table th {
+    color: #fff;
+}
+
+.wrapper.style2 table thead {
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 table tfoot {
+    border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 table.alt tbody tr td {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 .image {
+    box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+}
+
+@media screen and (max-width: 1280px) {
+
+    .wrapper > .inner {
+        width: 60em;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .wrapper > .inner {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .wrapper {
+        padding: 3em 0 1em 0;
+    }
+
+}
